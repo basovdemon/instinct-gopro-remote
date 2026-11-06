@@ -15,6 +15,8 @@ Plus `tools/overlay.py`: burns speed, heart rate, distance and a mini map from t
 
 ### Watch app
 
+![Watch app: stopped, recording (time in the subscreen), photo mode, and the glance](docs/images/watch-app.png)
+
 - START starts / stops recording, UP sets a HiLight while recording, DOWN switches video / photo / time lapse (START then takes a photo).
 - Camera battery and mode on screen; REC indicator and recording time in the round subscreen.
 - Sets the camera clock from the watch on every connection (so video and activity line up).
@@ -24,6 +26,8 @@ Plus `tools/overlay.py`: burns speed, heart rate, distance and a mini map from t
 
 ### Data field
 
+![Data field in different layouts: recording, the "not recording" warning, camera off](docs/images/data-field.png)
+
 "Camera on = filming": the field never wakes the camera, so you choose whether to film with the camera's own power button.
 
 - Activity timer start → record, stop → stop. Auto-pause is ignored, so a lift or a traffic light does not cut the video.
@@ -31,6 +35,8 @@ Plus `tools/overlay.py`: burns speed, heart rate, distance and a mini map from t
 - Two short vibrations when the camera confirms recording, one long when it stops. Three long ones and "NOT REC" when the timer runs but the camera does not record (repeated every 2 minutes while connected).
 - Writes a `gopro_recording` developer field (1 = recording, 0 = not recording or unknown) into the activity FIT file: `overlay.py` uses it to find the clips.
 - Add it to a **regular** cell of an activity data screen: Connect IQ fields are not offered for the cell in the subscreen circle.
+
+Screenshots come from the Connect IQ simulator with the camera state stubbed. The grey is the watch bezel and the subscreen ring; the display itself is black and white.
 
 ## Compatibility
 
@@ -50,7 +56,7 @@ Plus `tools/overlay.py`: burns speed, heart rate, distance and a mini map from t
 
 ## Install (sideload)
 
-1. Build the `.prg` files (see [Building](#building)) or take them from a release.
+1. Build the `.prg` files (see [Building](#building)). Ready-made builds will be attached to GitHub releases once the current version has been tested on the watch.
 2. Connect the watch over USB. It shows up as an MTP device, not a drive: copy `GoProRemote.prg` and/or `GoProField.prg` into `GARMIN/APPS`.
 3. **Pair:** put the camera into pairing mode (HERO12: *Preferences → Connections → Connect Device → Quik App*), then open the app on the watch (or start an activity with the field). The app and the field pair separately: do it once for each.
 

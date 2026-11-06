@@ -155,6 +155,7 @@ source/
 resources/, resources-rus/   strings (English, Russian), launcher icon (tools/make_launcher_icon.py)
 datafield/               manifest, monkey.jungle (reuses source/ble, source/common), GoProFieldApp, GoProField
 nolog.jungle             switches BLE logs off (-Lean, -Release)
+docs/images/             README screenshots: simulator, stubbed BleManager, English; bezel and ring greyed
 tools/                   build.ps1, sim_*.ps1, overlay.py (+ fitfile, gauges, effects, gopromp4), tests
 ```
 
