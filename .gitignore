@@ -1,0 +1,39 @@
+# Connect IQ developer key — never commit
+*.pem
+*.der
+developer_key*
+
+# Build output
+bin/
+*.prg
+*.iq
+*.prg.debug.xml
+
+# Editor / OS
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Downloads (e.g. SDK Manager archive)
+*.zip
+
+# Videos, activities and overlay output (tools/overlay.py)
+*.mp4
+*.MP4
+*.fit
+*.FIT
+*.ass
+*.LRV
+*.THM
+__pycache__/
+
+# Logs copied from the watch
+GOPROREMOTE.TXT
+GOPROFIELD.TXT
+CIQ_LOG.YML
+*.filters.txt
+*.vignette.png
+
+# Personal agent notes (CLAUDE.md imports AGENTS.md; CLAUDE.local.md is per machine)
+CLAUDE.local.md
+.claude/settings.local.json

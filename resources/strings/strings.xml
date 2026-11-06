@@ -1,0 +1,44 @@
+<strings>
+    <string id="AppName" scope="glance">GoPro Remote</string>
+    <!-- Glance title: the round subscreen covers the right part of its first line -->
+    <string id="GlanceTitle" scope="glance">GoPro</string>
+
+    <string id="StatusSearching">Searching...</string>
+    <string id="StatusConnecting">Connecting...</string>
+    <string id="StatusPairing">Pairing...</string>
+    <string id="StatusConnected">Connected</string>
+    <string id="StatusError">Error</string>
+    <string id="StatusReconnecting">Reconnecting...</string>
+    <string id="StatusCameraOff">Camera off</string>
+    <string id="StatusSleeping">Camera sleeping...</string>
+    <string id="ExitTitle">Exit</string>
+    <string id="ExitSleep">Sleep camera</string>
+    <string id="ExitKeepOn">Keep it on</string>
+    <string id="HintWake">START: turn on</string>
+    <string id="StatusRecording" scope="glance">REC</string>
+    <string id="StatusStopped">STOP</string>
+    <string id="BatteryFormat">Battery $1$%</string>
+    <string id="HintRecord">START: record</string>
+    <string id="HintStop">START: stop</string>
+    <string id="HintHilight">UP: HiLight</string>
+    <string id="StatusPhoto">PHOTO</string>
+    <string id="HintShoot">START: shoot</string>
+    <string id="HintMode">DOWN: mode</string>
+    <string id="ModeVideo" scope="glance">Video</string>
+    <string id="ModePhoto" scope="glance">Photo</string>
+    <string id="ModeTimelapse" scope="glance">Time lapse</string>
+    <string id="ModeBatteryFormat">$1$ · $2$%</string>
+
+    <string id="HintPairingMode">Camera in pairing mode</string>
+    <string id="HintRetry">START: retry</string>
+
+    <string id="ErrorNotFound">Camera not found</string>
+    <string id="ErrorConnect">Can't connect</string>
+    <string id="ErrorBond">Pairing failed</string>
+    <string id="ErrorProtocol">Camera not supported</string>
+    <string id="ErrorCameraNotReady">Camera not responding</string>
+    <string id="ErrorDisconnected">Connection lost</string>
+    <string id="ErrorKeysLost">Camera lost pairing</string>
+    <string id="ErrorBle">Bluetooth error</string>
+    <string id="GlanceNoData" scope="glance">No data yet</string>
+</strings>

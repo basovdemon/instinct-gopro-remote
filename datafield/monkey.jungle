@@ -1,0 +1,6 @@
+# Data field build: its own sources and strings, BLE code shared with the watch app.
+project.manifest = manifest.xml
+base.sourcePath = source;../source/ble;../source/common
+base.resourcePath = resources;../resources/drawables
+# BLE logs on; build.ps1 -Lean / -Release add ../nolog.jungle, which turns them off (source/ble/Logging.mc)
+base.excludeAnnotations = ble_nolog

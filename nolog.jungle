@@ -1,0 +1,4 @@
+# Added after monkey.jungle (or datafield/monkey.jungle) by build.ps1 -Lean and -Release:
+# BLE logs off (source/ble/Logging.mc). With -O 3 the log calls and their strings are dropped,
+# ~2 KB of the data field's 32 KB.
+base.excludeAnnotations = ble_log

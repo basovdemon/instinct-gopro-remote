@@ -1,0 +1,5 @@
+project.manifest = manifest.xml
+# The default is every .mc under this folder, which would pull in the data field (datafield/).
+base.sourcePath = source
+# BLE logs on; build.ps1 -Lean / -Release add nolog.jungle, which turns them off (source/ble/Logging.mc)
+base.excludeAnnotations = ble_nolog

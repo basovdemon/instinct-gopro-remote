@@ -1,0 +1,4 @@
+<drawables>
+    <!-- 62x62 per compiler.json launcherIcon; regenerate with tools/make_launcher_icon.py -->
+    <bitmap id="LauncherIcon" filename="launcher_icon.png"/>
+</drawables>

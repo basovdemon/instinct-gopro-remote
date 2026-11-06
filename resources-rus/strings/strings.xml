@@ -1,0 +1,44 @@
+<strings>
+    <string id="AppName" scope="glance">GoPro Remote</string>
+    <!-- Glance title: the round subscreen covers the right part of its first line -->
+    <string id="GlanceTitle" scope="glance">GoPro</string>
+
+    <string id="StatusSearching">Поиск…</string>
+    <string id="StatusConnecting">Подключение…</string>
+    <string id="StatusPairing">Сопряжение…</string>
+    <string id="StatusConnected">Подключено</string>
+    <string id="StatusError">Ошибка</string>
+    <string id="StatusReconnecting">Переподключение…</string>
+    <string id="StatusCameraOff">Камера выключена</string>
+    <string id="StatusSleeping">Усыпляю камеру…</string>
+    <string id="ExitTitle">Выход</string>
+    <string id="ExitSleep">Усыпить камеру</string>
+    <string id="ExitKeepOn">Не усыплять</string>
+    <string id="HintWake">START: включить</string>
+    <string id="StatusRecording" scope="glance">REC</string>
+    <string id="StatusStopped">STOP</string>
+    <string id="BatteryFormat">Заряд $1$%</string>
+    <string id="HintRecord">START: запись</string>
+    <string id="HintStop">START: стоп</string>
+    <string id="HintHilight">UP: HiLight</string>
+    <string id="StatusPhoto">ФОТО</string>
+    <string id="HintShoot">START: снять</string>
+    <string id="HintMode">DOWN: режим</string>
+    <string id="ModeVideo" scope="glance">Видео</string>
+    <string id="ModePhoto" scope="glance">Фото</string>
+    <string id="ModeTimelapse" scope="glance">Таймлапс</string>
+    <string id="ModeBatteryFormat">$1$ · $2$%</string>
+
+    <string id="HintPairingMode">Включите сопряжение</string>
+    <string id="HintRetry">START: повторить</string>
+
+    <string id="ErrorNotFound">Камера не найдена</string>
+    <string id="ErrorConnect">Нет подключения</string>
+    <string id="ErrorBond">Ошибка сопряжения</string>
+    <string id="ErrorProtocol">Не поддерживается</string>
+    <string id="ErrorCameraNotReady">Камера не отвечает</string>
+    <string id="ErrorDisconnected">Связь потеряна</string>
+    <string id="ErrorKeysLost">Камера забыла часы</string>
+    <string id="ErrorBle">Ошибка Bluetooth</string>
+    <string id="GlanceNoData" scope="glance">Нет данных</string>
+</strings>

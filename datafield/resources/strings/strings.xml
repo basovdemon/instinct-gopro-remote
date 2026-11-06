@@ -1,0 +1,12 @@
+<strings>
+    <!-- Short: a data field can be a third of the screen. -->
+    <string id="AppName">GoPro</string>
+
+    <string id="StatusCameraOff">Camera off</string>
+    <string id="StatusConnecting">Connect...</string>
+    <string id="StatusRecording">REC</string>
+    <string id="StatusStopped">STOP</string>
+    <string id="StatusNotRecording">NOT REC</string>
+    <string id="StatusError">Error</string>
+    <string id="ErrorPairing">Pair again</string>
+</strings>
